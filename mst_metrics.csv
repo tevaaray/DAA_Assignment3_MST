@@ -1,3 +1,3 @@
 algorithm,vertices,edges,total_cost,op_count,time_ms,edges_list
-Kruskal,5,7,16.0,18,4,"B-C:2.0 | A-C:3.0 | B-D:5.0 | D-E:6.0"
-Prim,5,7,16.0,23,11,"A-C:3.0 | C-B:2.0 | B-D:5.0 | D-E:6.0"
+Kruskal,5,7,16.0,18,7,"B-C:2.0 | A-C:3.0 | B-D:5.0 | D-E:6.0"
+Prim,5,7,16.0,23,43,"A-C:3.0 | C-B:2.0 | B-D:5.0 | D-E:6.0"
