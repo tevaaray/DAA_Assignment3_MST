@@ -2,6 +2,7 @@
   "graphs": [
     {
       "id": 1,
+      "type": "small",
       "nodes": ["A", "B", "C", "D", "E"],
       "edges": [
         {"from": "A", "to": "B", "weight": 4},
@@ -13,15 +14,55 @@
         {"from": "D", "to": "E", "weight": 6}
       ]
     },
+
     {
       "id": 2,
-      "nodes": ["A", "B", "C", "D"],
+      "type": "medium",
+      "nodes": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"],
       "edges": [
-        {"from": "A", "to": "B", "weight": 1},
+        {"from": "A", "to": "B", "weight": 3},
         {"from": "A", "to": "C", "weight": 4},
-        {"from": "B", "to": "C", "weight": 2},
-        {"from": "C", "to": "D", "weight": 3},
-        {"from": "B", "to": "D", "weight": 5}
+        {"from": "B", "to": "D", "weight": 5},
+        {"from": "C", "to": "D", "weight": 6},
+        {"from": "C", "to": "E", "weight": 2},
+        {"from": "D", "to": "E", "weight": 4},
+        {"from": "E", "to": "F", "weight": 7},
+        {"from": "F", "to": "G", "weight": 3},
+        {"from": "G", "to": "H", "weight": 5},
+        {"from": "H", "to": "I", "weight": 6},
+        {"from": "I", "to": "J", "weight": 2},
+        {"from": "F", "to": "J", "weight": 8}
+      ]
+    },
+
+    {
+      "id": 3,
+      "type": "large",
+      "nodes": [
+        "A","B","C","D","E","F","G","H","I","J",
+        "K","L","M","N","O","P","Q","R","S","T"
+      ],
+      "edges": [
+        {"from": "A", "to": "B", "weight": 2},
+        {"from": "A", "to": "C", "weight": 4},
+        {"from": "B", "to": "D", "weight": 5},
+        {"from": "C", "to": "E", "weight": 3},
+        {"from": "E", "to": "F", "weight": 7},
+        {"from": "F", "to": "G", "weight": 8},
+        {"from": "G", "to": "H", "weight": 2},
+        {"from": "H", "to": "I", "weight": 6},
+        {"from": "I", "to": "J", "weight": 5},
+        {"from": "J", "to": "K", "weight": 3},
+        {"from": "K", "to": "L", "weight": 4},
+        {"from": "L", "to": "M", "weight": 6},
+        {"from": "M", "to": "N", "weight": 5},
+        {"from": "N", "to": "O", "weight": 3},
+        {"from": "O", "to": "P", "weight": 4},
+        {"from": "P", "to": "Q", "weight": 6},
+        {"from": "Q", "to": "R", "weight": 7},
+        {"from": "R", "to": "S", "weight": 2},
+        {"from": "S", "to": "T", "weight": 5},
+        {"from": "A", "to": "T", "weight": 9}
       ]
     }
   ]

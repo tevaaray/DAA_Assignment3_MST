@@ -1,3 +1,7 @@
-algorithm,vertices,edges,total_cost,op_count,time_ms,edges_list
-Kruskal,5,7,16.0,18,7,"B-C:2.0 | A-C:3.0 | B-D:5.0 | D-E:6.0"
-Prim,5,7,16.0,23,43,"A-C:3.0 | C-B:2.0 | B-D:5.0 | D-E:6.0"
+graph_id,type,algorithm,vertices,edges,total_cost,op_count,time_ms,edges_list
+1,small,Kruskal,5,7,16.0,18,3.0889,"B-C:2.0 | A-C:3.0 | B-D:5.0 | D-E:6.0"
+1,small,Prim,5,7,16.0,23,7.555,"A-C:3.0 | C-B:2.0 | B-D:5.0 | D-E:6.0"
+2,medium,Kruskal,10,12,36.0,42,0.0772,"C-E:2.0 | I-J:2.0 | A-B:3.0 | F-G:3.0 | A-C:4.0 | D-E:4.0 | G-H:5.0 | H-I:6.0 | E-F:7.0"
+2,medium,Prim,10,12,36.0,35,0.0908,"A-B:3.0 | A-C:4.0 | C-E:2.0 | E-D:4.0 | E-F:7.0 | F-G:3.0 | G-H:5.0 | H-I:6.0 | I-J:2.0"
+3,large,Kruskal,20,20,87.0,72,0.0939,"A-B:2.0 | G-H:2.0 | R-S:2.0 | C-E:3.0 | J-K:3.0 | N-O:3.0 | A-C:4.0 | K-L:4.0 | O-P:4.0 | B-D:5.0 | I-J:5.0 | M-N:5.0 | S-T:5.0 | H-I:6.0 | L-M:6.0 | P-Q:6.0 | E-F:7.0 | Q-R:7.0 | F-G:8.0"
+3,large,Prim,20,20,87.0,62,0.1143,"A-B:2.0 | A-C:4.0 | C-E:3.0 | B-D:5.0 | E-F:7.0 | F-G:8.0 | G-H:2.0 | H-I:6.0 | I-J:5.0 | J-K:3.0 | K-L:4.0 | L-M:6.0 | M-N:5.0 | N-O:3.0 | O-P:4.0 | P-Q:6.0 | Q-R:7.0 | R-S:2.0 | S-T:5.0"

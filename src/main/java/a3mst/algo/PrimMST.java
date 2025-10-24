@@ -55,7 +55,7 @@ public class PrimMST {
         }
 
         long t1 = System.nanoTime();
-        long ms = (t1 - t0) / 1_000_000;
+        double ms = (t1 - t0) / 1_000_000.0;
 
         return new MSTResult(
                 "Prim",

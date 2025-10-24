@@ -9,10 +9,10 @@ public class MSTResult {
     public final int nVertices;
     public final int nEdges;
     public final long opCount;        // number of key operations
-    public final long timeMillis;     // execution time in ms
+    public final double timeMillis;   // execution time in ms
 
     public MSTResult(String algorithm, List<Edge> mstEdges, double totalCost,
-                     int nVertices, int nEdges, long opCount, long timeMillis) {
+                     int nVertices, int nEdges, long opCount, double timeMillis) {
         this.algorithm = algorithm;
         this.mstEdges = mstEdges;
         this.totalCost = totalCost;
